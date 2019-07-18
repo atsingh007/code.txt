@@ -1,16 +1,26 @@
 *SUPER MARKET CASH MACHINE*
 
 #include<iostream>
+	
  using namespace std;
+ 
  int main()
+ 
  {
  	int n=100,y,w=0,u[100];
+	
  	int tot;
+	
  	int n1=4;
+	
  	int qua[n],priz[n];
+	
  	string s[n] = {"chocolets","biscuits","colddrink","soaps"};
+	
  	string sn[n];
+	
   	for(y=0;y<n1;y++)
+	
   	{
 	cout<<"enter the quantity of  "+s[y]<<"\n";
 	cin>>qua[y];
